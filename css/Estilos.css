@@ -1,4 +1,35 @@
-#titulosGrandes{
+#titulos1{
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
-    background-color: rgb(red, green, blue);
+    color: rgb(235, 235, 235);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 400px;
+}
+
+#titulos2{
+     text-align: center;
+}
+
+#degrades{
+    background-color: rgb(124, 0, 118); 
+    background-image: linear-gradient(rgb(124, 0, 118), pink);
+    height: auto;
+}
+
+#parrafo{
+    text-align: center;
+    color: rgb(235, 235, 235);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: black 4px;
+}
+
+#imagenes{
+    width: 300;
+    height: 200;
+}
+
+#link{
+    text-decoration: none;
 }
