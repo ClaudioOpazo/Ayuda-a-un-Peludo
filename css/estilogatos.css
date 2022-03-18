@@ -1,17 +1,36 @@
+/*CARCATERISTICAS DEL PRIMER TITULO*/
 .titulo1{
     font-size: 70px;
     text-align: center;
     color: white;
 }
 
+/*FONDO DE LA PAGINA*/
 #degrades{
-    background-color: rgb(124, 0, 118); 
-    background-image: linear-gradient(rgb(124, 0, 118), pink);
+    background-color: pink; 
+    background-image: linear-gradient(pink, rgb(124, 0, 118));
     height: auto;
 }
 
-.parrafos1{
-    text-align: center;
-    color:  white;
-    font-size: 15px;
+
+/*Caracteriticas de la imagen con texto*/
+.container{
+    position: relative;
+    height: 450px;
+    width: 450px;
+}
+
+.container img{
+    height: 450px;
+    padding-left: 12%;
+}
+
+.container p{
+    font-size: 23px;
+    color: blue;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
