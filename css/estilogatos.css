@@ -1,0 +1,11 @@
+.titulo1{
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+#degrades{
+    background-color: rgb(124, 0, 118); 
+    background-image: linear-gradient(rgb(124, 0, 118), pink);
+    height: auto;
+}
