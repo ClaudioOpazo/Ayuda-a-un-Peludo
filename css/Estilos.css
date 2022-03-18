@@ -7,8 +7,9 @@
     font-size: 70px;
 }
 
-#titulos2{
-     text-align: center;
+.titulos2{
+    text-align: center;
+    color: white;
 }
 
 #degrades{
