@@ -1,6 +1,7 @@
 /*CARCATERISTICAS DEL PRIMER TITULO*/
 .titulo1{
     font-size: 70px;
+    font-family: 'Bebas Neue';
     text-align: center;
     color: white;
 }
@@ -20,17 +21,61 @@
     width: 450px;
 }
 
-.container img{
+.img1{
+    float: left;
     height: 450px;
     padding-left: 12%;
 }
 
+.img2{
+    float: right;
+    margin-top: -200px;
+    margin-right: 200px;
+}
+
+
+.textoflotante{
+    float: right;
+    margin-top: -150px;
+    margin-right: 170px;
+}
+
+.tamanoimg{
+    width: 625px;
+    height: 376px;
+    /*transform: rotate(50deg);*/
+}
+
+.tamanoimg2{
+    width: 150px;
+    height: 150px;
+    transform: rotate(50deg);
+}
+
+.texto1{
+    font-family: 'lobster';
+    font-size: 40px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 450px;
+}
+
 .container p{
-    font-size: 23px;
-    color: blue;
+    font-size: 25px;
+    color: black;
     position: absolute;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+    top: 28%;
+    left: 20%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*Caracteristicas para pizarra de gatos*/
+.container2{
+    position: relative;
+    background-color: white;
+    border: 8px solid #C0C0C0;
+    width: 1840px;
+    height: 500px;
+    margin-top: 50px;
 }
