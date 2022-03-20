@@ -1,19 +1,9 @@
-/*FONDO DE LA PAGINA
+/*FONDO DE LA PAGINA*/
 #degrades{
     background-color: pink; 
     background-image: linear-gradient(pink, rgb(124, 0, 118));
     height: 2000px;
-}*/
-
-#degrades{
-    background-color: pink;
-  animation-name: example;
-  animation-duration: repeat;
 }
-@keyframes example {
-    from {background-color: pink;}
-    to {background-color: rgb(124, 0, 118);}
-  }
 
 /*CARCATERISTICAS DEL PRIMER TITULO*/
 .titulo1{
@@ -77,101 +67,64 @@
     height: 376px;
 }
 
-/*Caracteristicas para pizarra de gatos*/
-.container2{
-    position: absolute;
-    background-color: white;
-    border: 8px solid #C0C0C0;
-    width: 1840px;
-    height: 800px;
-    margin-top: 50px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.titulopi{
-    text-align: center;
-    font-family: 'bungee';
-    font-size: 40px;
-    text-decoration: underline red 10px;
+/*IMAGENES GATOS*/
+.gallery{
+    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 160px;
+    grid-template-areas: 
+    "img1 img2 img3"
+    "img1 img2 img3"
+    "img7 img2 img3";
+    gap: .8em;
 }
 
-/*Caracteristicas para gatitos en adopcion*/
-/*GATO 1*/
-.imgpost1{
-    position: absolute;
+.gallery_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.modpost1{
-    position: absolute;
-    float: left;
-    width: 500px;
-    height: 500px;
-    padding-top: 200px;
-    padding-left: 200px;
+.gallery_picture-g1{
+    grid-area: img1;
 }
 
-.imggato1{
-    position: absolute;
+.gallery_picture-g2{
+    grid-area: img2;
 }
 
-.modgato1{
-    position: absolute;
-    float: left;
-    width: 300px;
-    height: 200px;
-    padding-top: 370px;
-    padding-left: 300px;
+.gallery_picture-g3{
+    grid-area: img3;
 }
 
-/*GATO 2*/
-.imgpost2{
-    position: absolute;
+.gallery_picture{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
 }
 
-.modpost2{
+.gallery_picture::before{
     position: absolute;
-    float: left;
-    width: 500px;
-    height: 500px;
-    padding-top: 200px;
-    padding-left: 700px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #5b40f3a6;
+    transform: translate(100%);
+    transition: transform .4s;
 }
 
-.imggato2{
-    position: absolute;
-}
 
-.modgato2{
-    position: absolute;
-    float: left;
-    width: 300px;
-    height: 200px;
-    padding-top: 370px;
-    padding-left: 805px;
-}
-
-/*GATO 3*/
-.imgpost3{
-    position: absolute;
-}
-
-.modpost3{
-    position: absolute;
-    float: left;
-    width: 500px;
-    height: 500px;
-    padding-top: 200px;
-    padding-left: 1200px;
-}
-
-.imggato3{
-    position: absolute;
-}
-
-.modgato3{
-    position: absolute;
-    float: left;
-    width: 300px;
-    height: 200px;
-    padding-top: 370px;
-    padding-left: 1300px;
+.gallery_picture:hover::before{
+    transform: translate(0);
 }
