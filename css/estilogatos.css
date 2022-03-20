@@ -1,9 +1,19 @@
-/*FONDO DE LA PAGINA*/
+/*FONDO DE LA PAGINA
 #degrades{
     background-color: pink; 
     background-image: linear-gradient(pink, rgb(124, 0, 118));
     height: 2000px;
+}*/
+
+#degrades{
+    background-color: pink;
+  animation-name: example;
+  animation-duration: repeat;
 }
+@keyframes example {
+    from {background-color: pink;}
+    to {background-color: rgb(124, 0, 118);}
+  }
 
 /*CARCATERISTICAS DEL PRIMER TITULO*/
 .titulo1{
