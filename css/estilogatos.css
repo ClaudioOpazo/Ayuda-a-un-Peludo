@@ -14,7 +14,7 @@
 }
 
 /*Caracteriticas de la imagen con texto*/
-.container{
+.conta{
     position: relative;
     height: 450px;
     width: 503px;
@@ -28,10 +28,10 @@
 .img1{
     float: left;
     height: 450px;
-    padding-left: 22%;
+    padding-left: 20%;
 }
 
-.container p{
+.conta p{
     font-size: 25px;
     color: black;
     position: absolute;
@@ -45,7 +45,7 @@
 .textoflotante{
     float: right;
     margin-top: -80px;
-    margin-right: 170px;
+    margin-right: -20px;
 }
 
 .texto1{
@@ -59,7 +59,7 @@
 .img2{
     float: right;
     margin-top: -400px;
-    margin-right: 200px;
+    margin-right: px;
 }
 
 .tamanoimg{
@@ -74,57 +74,65 @@
 }
 
 /*IMAGENES GATOS*/
-.gallery{
-    padding-bottom: 3em;
-    padding-top: 1em;
-    padding-left: 6em;
-    padding-right: 6em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 160px;
-    grid-template-areas: 
-    "img1 img2 img3"
-    "img1 img2 img3"
-    "img7 img2 img3";
-    gap: .8em;
+
+.galeria{
+    font-family: 'open sans';
+    
 }
 
-.gallery_img{
+.galeria h1{
+    text-align: center;
+    margin:20px 0px 15px 0px;
+    font-weight: 300;
+    color: white;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    width: 1580px;
+    border-left: px solid;
+    justify-content: space-between;
+    border-radius:3px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 500px;
+    position: relative;
+    height: 400px;
+    margin: bottom 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+    
+}
+
+.imagen img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.gallery_picture-g1{
-    grid-area: img1;
-}
-
-.gallery_picture-g2{
-    grid-area: img2;
-}
-
-.gallery_picture-g3{
-    grid-area: img3;
-}
-
-.gallery_picture{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.gallery_picture::before{
+.overlay{
     position: absolute;
-    top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
-    background-color: #5b40f3a6;
-    transform: translate(100%);
-    transition: transform .4s;
+    background:rgba(0, 118, 192, 0.781) ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
 }
 
+.overlay a{
+    color: #fff;
+    font-weight: 300;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
 
-.gallery_picture:hover::before{
-    transform: translate(0);
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
 }
