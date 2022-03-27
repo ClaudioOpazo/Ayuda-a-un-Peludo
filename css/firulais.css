@@ -1,14 +1,51 @@
 .fondo{
-    background-color: pink; 
-    background-image: linear-gradient(pink, rgb(124, 0, 118));
-    height: 2000px;
+    background-color: #C489FD; 
+    /*background-image: linear-gradient(pink, rgb(124, 0, 118));*/
+    height: 1000px;
 }
 
 .nompag{
     font-size: 80px;
     font-family: 'Bebas Neue';
+    background-color: #81DAFA;
+    border-radius: 20px;
 }
 
-.img1{
-    
+.linea{
+    border-top: 5px solid #81DAFA;
+    border-radius: 20px;
+}
+
+.tabla{
+    background-color: #81DAFA;
+    border: 2px solid black;
+    float: right;
+    height: 200px;
+    width: 400px;
+    margin-right: 200px;
+    margin-bottom: 1000px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+tr, td{
+    border: solid 1px white;
+    padding: 5px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th{
+    padding: 4px;
+    background-color: #a572d4;
+    border-collapse: collapse;
+}
+
+.tamimg{
+    height: 600px;
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: solid white;
 }
