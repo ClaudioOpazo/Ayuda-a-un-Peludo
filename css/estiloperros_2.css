@@ -1,0 +1,10 @@
+.degrades{
+    background-color: pink; 
+    background-image: linear-gradient(pink, rgb(124, 0, 118));
+    height: 2000px;
+}
+
+.nompag{
+    font-size: 80px;
+    font-family: 'Bebas Neue';
+}
