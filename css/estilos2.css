@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 70px;
+}
+
+.degradado{
+    background-color: rgb(124, 0, 118); 
+    background-image: linear-gradient(rgb(124, 0, 118), pink);
+    height: 1000px;
+}
+
+.parrafo{
+    text-align: center;
+    color: rgb(235, 235, 235);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: black 4px;
+    font-size: 15px;
+}
+
+.integrantes{
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    color: rgb(235, 235, 235);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+
+.ayuda{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    color: rgb(235, 235, 235);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+/*imagenes*/
+img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: 300px;
+  }
+  h2 {
+    margin-bottom: .5em;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /* hover styles */
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+    
+  }
+  
+  .location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+  
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+    color: white;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .location-title {
+      opacity: 1;
+    }
+    .location-image img {
+      filter: blur(2px);
+    }
+  }
+.adoptame{
+    float: right;
+    margin-top: -270px;
+    margin-right: 15px;
+    width: 22%;
+    height: 100px;
+
+}
+
+.radio{
+    border-radius: 100%;
+}
+
