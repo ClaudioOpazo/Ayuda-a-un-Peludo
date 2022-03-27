@@ -1,5 +1,11 @@
+*{
+    background-color: pink; 
+    background-image: linear-gradient(pink, rgb(124, 0, 118));
+    height: 2000px;
+}
+
 .fondo{
-    background-color: rgb(124, 0, 118); 
-    background-image: linear-gradient(rgb(124, 0, 118), pink);
+    background-color: pink; 
+    background-image: linear-gradient(pink, rgb(124, 0, 118));
     height: 2000px;
 }
