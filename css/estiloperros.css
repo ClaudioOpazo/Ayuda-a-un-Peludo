@@ -95,7 +95,7 @@ img {
   .location-image {
     line-height: 0;
     overflow: hidden;
-    border-radius: 5%;
+    border-radius: 50%;
   }
   
   .location-image img {
@@ -121,11 +121,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5%;
+    border-radius: 50%;
   }
   
   .location-listing:hover .location-title {
     opacity: 1;
+
   }
   
   .location-listing:hover .location-image img {
