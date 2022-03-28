@@ -343,3 +343,9 @@ nav {
   height: 60px;
   padding-right: 5px;
 }
+
+@media(max-width: 667px){
+  .cuerpo¨{
+    width: 100%;
+  }
+}

@@ -66,7 +66,7 @@
 
 .texto1{
     font-family: 'lobster';
-    font-size: 40px;
+    font-size: 30px;
     float: right;
     margin-top: -250px;
     margin-right: 450px;
@@ -333,4 +333,10 @@ img {
   width: 65px;
   height: 60px;
   padding-right: 5px;
+}
+
+@media(max-width: 667px){
+  .cuerpo¨{
+    width: 100%;
+  }
 }
