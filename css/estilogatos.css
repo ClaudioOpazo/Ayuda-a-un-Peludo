@@ -1,8 +1,8 @@
 /*FONDO DE LA PAGINA*/
 #degrades{
-    background-color: pink; 
-    background-image: linear-gradient(pink, rgb(124, 0, 118));
-    height: 2000px;
+  background-color: #C489FD; 
+  /*background-image: linear-gradient(pink, rgb(124, 0, 118));*/
+  height: 2000px;
 }
 
 /*CARCATERISTICAS DEL PRIMER TITULO*/
@@ -14,7 +14,7 @@
 }
 
 .linea{
-    border-top: 5px solid white;
+    border-top: 5px solid #81DAFA;
 }
 
 /*CARCATERISTICAS DEL PRIMER TITULO*/
@@ -22,8 +22,10 @@
     font-size: 70px;
     font-family: 'Bebas Neue';
     text-align: center;
-    color: white;
+    color: black;
     margin-top: 50px;
+    border-radius: 20px ;
+    background-color: #81DAFA;
 }
 
 /*Caracteriticas de la imagen con texto*/
@@ -89,7 +91,7 @@ img {
     text-align: center;
     font-family: 'bebas neue';
     font-size: 50px;
-    border-bottom: 5px solid #ECCFD3;
+    border-bottom: 5px solid #81DAFA;
   }
   .grid-container {
     display: grid;
@@ -137,7 +139,7 @@ img {
   
   .location-listing:hover .location-title {
     opacity: 1;
-
+    color: white;
   }
   
   .location-listing:hover .location-image img {

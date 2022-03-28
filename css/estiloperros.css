@@ -1,16 +1,19 @@
 #degrades{
-    background-color: pink; 
-    background-image: linear-gradient(pink, rgb(124, 0, 118));
+    background-color: #C489FD; 
+    /*background-image: linear-gradient(pink, rgb(124, 0, 118));*/
     height: 2000px;
 }
 
 .nompag{
     font-size: 80px;
     font-family: 'Bebas Neue';
+    background-color: #81DAFA;
+    border-radius: 20px;
 }
 
 .linea{
-    border-top: 5px solid #ECCFD3;
+    border-top: 5px solid #81DAFA;
+    border-radius: 20px;
 }
 
 /*Texto y Post-It*/
@@ -78,7 +81,7 @@ img {
     text-align: center;
     font-family: 'bebas neue';
     font-size: 50px;
-    border-bottom: 5px solid #ECCFD3;
+    border-bottom: 5px solid #81DAFA;
   }
   .grid-container {
     display: grid;
@@ -126,6 +129,7 @@ img {
   
   .location-listing:hover .location-title {
     opacity: 1;
+    color: white;
 
   }
   
