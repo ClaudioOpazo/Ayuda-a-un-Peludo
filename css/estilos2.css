@@ -13,7 +13,7 @@
 .titulo{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    color: white;
+    color: black;
     margin-top: 0%;
     margin-bottom: 0%;
     font-size: 70px;
@@ -65,7 +65,7 @@ img {
   h2 {
     margin-bottom: .5em;
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
   }
@@ -87,6 +87,7 @@ img {
     line-height: 0;
     overflow: hidden;
     border-radius: 10px;
+    border: white solid;
   }
   
   .location-image img {
